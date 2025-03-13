@@ -13,10 +13,10 @@ function App() {
 
         <ul>
           <li>
-            <Link to="/">Projects</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/">Projects</Link>
           </li>
           <li>
             <Link to="/resume">Resume</Link>
