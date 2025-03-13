@@ -50,6 +50,9 @@ function About() {
             <a href="https://github.com/jasonli2004" rel="noopener noreferrer">
               <img alt="Github" className="social-icon" src="./github.png" />
             </a>
+            <a href="lil4@carleton.edu" rel="noopener noreferrer">
+              <img alt="Email" className="social-icon" src="./email.webp" />
+            </a>
           </div>
         </div>
       </div>
