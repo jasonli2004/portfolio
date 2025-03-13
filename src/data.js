@@ -53,4 +53,19 @@ export const projects = [
       github: "https://github.com/jasonli2004/FlashCardGPT",
     },
   },
+  {
+    title: "Chick-Fil-A Diet Guide Website",
+    description:
+      "A website that provides nutritional information and food choice suggestions based on user preferences, enabling the users to make decisions according to their diet plans",
+    features: [
+      "Upload lecture materials (images or PDFs)",
+      "AI-powered summarization",
+      "Streamlined workflow",
+    ],
+    tech: ["Flask", "PostgreSQL", "HTML"],
+    links: {
+      github:
+        "https://github.com/jasonli2004/UndergradProjects/tree/main/Chick-fil-A_diet_guide_website",
+    },
+  },
 ];
