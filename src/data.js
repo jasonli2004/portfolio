@@ -22,21 +22,6 @@ export const projects = [
       github: "https://github.com/jasonli2004/TheLivingFuneral",
     },
   },
-  /*ChatGPT (GPT-4 Vision/Completion Models), ElevenLabs Text-to-Speech API, React, Next.js, Vercel, Backblaze B2.*/
-  {
-    title: "Lecture Flashcard Generator",
-    description:
-      "A web app designed to enhance study efficiency by transforming lecture notes or slides into concise flash memory cards using AI.",
-    features: [
-      "Upload lecture materials (images or PDFs)",
-      "AI-powered summarization",
-      "Streamlined workflow",
-    ],
-    tech: ["JavaScript", "Svelte", "Firebase", "GPT-4"],
-    links: {
-      github: "https://github.com/jasonli2004/FlashCardGPT",
-    },
-  },
   {
     title: "Guess the Sketch",
     description:
@@ -46,9 +31,26 @@ export const projects = [
       "AI-powered recognition",
       "Multiple difficulty levels",
     ],
-    tech: ["Jetpack Compose", "Kotlin", "GPT-4 Vision"],
+    tech: ["Jetpack Compose", "Kotlin", "Vision AI"],
     links: {
+      demo: "https://appetize.io/embed/b_ll3l6aehmudirl7dv7kyda2jii",
       github: "https://github.com/jasonli2004/GuessTheSketch",
+    },
+  },
+  /*ChatGPT (GPT-4 Vision/Completion Models), ElevenLabs Text-to-Speech API, React, Next.js, Vercel, Backblaze B2.*/
+  {
+    title: "Lecture Flashcard Generator (In Progress)",
+    description:
+      "A web app designed to enhance study efficiency by transforming lecture notes or slides into concise flash memory cards using AI.",
+    features: [
+      "Upload lecture materials (images or PDFs)",
+      "AI-powered summarization",
+      "Streamlined workflow",
+    ],
+    tech: ["JavaScript", "Svelte", "Firebase", "GenAI"],
+    links: {
+      demo: "https://www.youtube.com/watch?v=5oBghd_5bHM",
+      github: "https://github.com/jasonli2004/FlashCardGPT",
     },
   },
 ];

@@ -1,23 +1,37 @@
 import React from "react";
-import { projects } from "./data";
-import ProjectCard from "./components/ProjectCard";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Projects from "./Projects";
+import About from "./aboutPage/About";
 import "./App.css";
+import Resume from "./resumePage/Resume";
 
 function App() {
   return (
-    <div className="App">
-      <nav className="navbar">
-        <h1>Xiaojia Li's Portfolio</h1>
-      </nav>
+    <BrowserRouter>
+      <div className="App">
+        <h1 id="title">Xiaojia Li's Portfolio</h1>
 
-      <main className="portfolio-container">
-        <section className="projects-grid">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
-          ))}
-        </section>
-      </main>
-    </div>
+        <ul>
+          <li>
+            <Link to="/">Projects</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/resume">Resume</Link>
+          </li>
+        </ul>
+
+        <main className="portfolio-container">
+          <Routes>
+            <Route path="/" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
