@@ -50,7 +50,7 @@ function About() {
             <a href="https://github.com/jasonli2004" rel="noopener noreferrer">
               <img alt="Github" className="social-icon" src="./github.png" />
             </a>
-            <a href="lil4@carleton.edu" rel="noopener noreferrer">
+            <a href="mailto:lil4@carleton.edu?subject=Hello&body=Hi%20there%2C%20I%20wanted%20to%20connect.">
               <img alt="Email" className="social-icon" src="./email.webp" />
             </a>
           </div>
