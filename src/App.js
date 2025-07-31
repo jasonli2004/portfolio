@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import About from "./aboutPage/About";
 import "./App.css";
 import Resume from "./resumePage/Resume";
+import BeyondCode from "./BeyondCodePage/BeyondCode";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <li>
             <Link to="/resume">Resume</Link>
           </li>
+          <li>
+            <Link to="/beyondCode">Beyond Code</Link>
+          </li>
         </ul>
 
         <main className="portfolio-container">
@@ -28,6 +32,7 @@ function App() {
             <Route path="/" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/beyondCode" element={<BeyondCode />} />
           </Routes>
         </main>
       </div>

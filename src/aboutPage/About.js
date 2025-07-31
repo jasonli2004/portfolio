@@ -15,7 +15,7 @@ function About() {
         <div className="about-right">
           <h1>About Me</h1>
           <p className="intro-text">
-            Hi! I'm <span className="highlight">Xiaojia Li</span>, a junior at
+            Hi! I'm <span className="highlight">Xiaojia Li</span>, a senior at
             <span className="highlight"> Carleton College</span>, pursuing a
             <span className="highlight"> BA in Computer Science & Math.</span>{" "}
           </p>
@@ -24,17 +24,20 @@ function About() {
             <span className="highlight">software development</span>, integrating
             <span className="highlight"> AI-driven functionalities</span>, and
             creating intuitive user interfaces. My internship experiences have
-            sharpened my technical skills and enhanced my ability to deliver
-            impactful solutions. I am passionate about blending creativity and
-            cutting-edge technology to craft seamless, user-focused designs.
+            sharpened my technical skills, strengthened my ability to deliver
+            impactful solutions, and demonstrated my capacity to quickly learn
+            and adapt to{" "}
+            <span className="highlight">new technologies and frameworks</span>.
+            I am passionate about blending creativity and cutting-edge
+            technology to craft seamless, user-focused designs.
           </p>
           <p className="description-text">
-            Besides coding, I'm an avid
-            <span className="highlight"> photographer</span>, focusing on
-            landscape, portrait, and sports photography. I'm also a passionate{" "}
-            frisbee player, and I love the teamwork and strategy involved in the
-            game.
+            Besides coding, I'm an avid{" "}
+            <span className="highlight">photographer</span>, focusing on
+            landscape, portrait, and sports photography. I'm also a frisbee and
+            table tennis player on my college teams.
           </p>
+
           <div className="social-links">
             <a
               href="https://www.linkedin.com/in/xiaojia-li-8783a821a/" // Replace with your LinkedIn URL
