@@ -12,7 +12,7 @@ function About_cn() {
           <h1>自我介绍</h1>
           <p className="intro-text">
             我是<span className="highlight">李小佳</span>，目前就读于
-            <span className="highlight">卡尔顿学院(Carleton College)</span>,
+            <span className="highlight">卡尔顿学院(Carleton College)</span>，
             主修<span className="highlight">计算机科学</span>。
           </p>
           <p className="description-text">
