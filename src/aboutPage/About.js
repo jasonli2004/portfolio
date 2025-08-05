@@ -6,11 +6,7 @@ function About() {
     <div className="about-container">
       <div className="about-content">
         <div className="about-left">
-          <img
-            src="./headshot.jpg"
-            alt="Xiaojia Li"
-            className="profile-image"
-          />
+          <img src="/headshot.jpg" alt="Xiaojia Li" className="profile-image" />
         </div>
         <div className="about-right">
           <h1>About Me</h1>
@@ -44,17 +40,13 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                alt="LinkedIn"
-                className="social-icon"
-                src="./linkedin.png"
-              />
+              <img alt="LinkedIn" className="social-icon" src="/linkedin.png" />
             </a>
             <a href="https://github.com/jasonli2004" rel="noopener noreferrer">
-              <img alt="Github" className="social-icon" src="./github.png" />
+              <img alt="Github" className="social-icon" src="/github.png" />
             </a>
             <a href="mailto:lil4@carleton.edu?subject=Hello&body=Hi%20there%2C%20I%20wanted%20to%20connect.">
-              <img alt="Email" className="social-icon" src="./email.webp" />
+              <img alt="Email" className="social-icon" src="/email.webp" />
             </a>
           </div>
         </div>
