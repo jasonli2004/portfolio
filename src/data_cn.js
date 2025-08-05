@@ -1,8 +1,8 @@
 export const projects = [
   {
-    title: "The Living Funeral",
+    title: "互动网页艺术：生之葬礼",
     description:
-      "An interactive, web-based extension of a physical art installation that uses AI to provoke deep reflection on themes of life, death, and self-reflection.\n",
+      "一个基于网页的互动延展作品，作为实体艺术装置的延伸，借助人工智能，引发人们对生命、死亡与自我反思等主题的深入思考。\n",
     features: [
       "Reflective narrative guided by participant inputs",
       "Customized AI-generated eulogy",
@@ -23,9 +23,8 @@ export const projects = [
     },
   },
   {
-    title: "Guess the Sketch",
-    description:
-      "An Android app combining creativity and AI recognition in a fun sketching game.",
+    title: "AI来猜画",
+    description: "一款结合创意绘画与 AI 识别的趣味涂鸦游戏(安卓)。",
     features: [
       "Interactive canvas for drawing",
       "AI-powered recognition",
@@ -39,9 +38,9 @@ export const projects = [
   },
   /*ChatGPT (GPT-4 Vision/Completion Models), ElevenLabs Text-to-Speech API, React, Next.js, Vercel, Backblaze B2.*/
   {
-    title: "Lecture Flashcard Generator (In Progress)",
+    title: "AI讲义学习卡片生成器（开发中）",
     description:
-      "A web app designed to enhance study efficiency by transforming lecture notes or slides into concise flash memory cards using AI.",
+      "一个借助LLM将课堂笔记或幻灯片转化为简洁记忆卡片的网页应用，助力高效学习。",
     features: [
       "Upload lecture materials (images or PDFs)",
       "AI-powered summarization",
@@ -54,9 +53,9 @@ export const projects = [
     },
   },
   {
-    title: "Chick-Fil-A Diet Guide Website",
+    title: "饮食指南网站",
     description:
-      "A website that provides nutritional information and food choice suggestions based on user preferences, enabling the users to make decisions according to their diet plans.",
+      "一个根据用户偏好提供营养信息与点餐建议的网站，帮助用户按自己的饮食计划做出更健康的选择。",
     features: [
       "Upload lecture materials (images or PDFs)",
       "AI-powered summarization",
@@ -69,9 +68,8 @@ export const projects = [
     },
   },
   {
-    title: "Portfolio Website",
-    description:
-      "This is the portfolio website you're currently browsing — fully designed and developed by me.",
+    title: "个人作品集网站",
+    description: "这是你现在正在浏览的作品集网站—由我独立设计与开发。",
     features: [
       "Upload lecture materials (images or PDFs)",
       "AI-powered summarization",

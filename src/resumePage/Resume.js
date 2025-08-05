@@ -9,7 +9,7 @@ export default function Resume() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume PDF
+          Download
         </a>
       </div>
       <embed
