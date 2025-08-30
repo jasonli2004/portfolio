@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <div className="project-links">
         <a
-          href="https://drive.google.com/file/d/1Gam77MqZbpAh1Q0wKtr9K_ePTR5fmXHc/view?usp=sharing"
+          href="https://drive.google.com/file/d/1aXtERnje1kXl3ZHzXYSnWYVvFV8uYvUw/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -14,7 +14,7 @@ export default function Resume() {
       </div>
       <embed
         className="pdf-viewer"
-        src="https://drive.google.com/file/d/1Gam77MqZbpAh1Q0wKtr9K_ePTR5fmXHc/preview"
+        src="https://drive.google.com/file/d/1aXtERnje1kXl3ZHzXYSnWYVvFV8uYvUw/view?usp=sharing"
         type="application/pdf"
         width="100%"
         height="600px"
