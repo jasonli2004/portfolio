@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <div className="project-links">
         <a
-          href="https://drive.google.com/file/d/1aXtERnje1kXl3ZHzXYSnWYVvFV8uYvUw/view?usp=drive_link"
+          href="/resume_xiaojia_li.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -14,7 +14,7 @@ export default function Resume() {
       </div>
       <embed
         className="pdf-viewer"
-        src="https://drive.google.com/file/d/1aXtERnje1kXl3ZHzXYSnWYVvFV8uYvUw/view?usp=sharing"
+        src="/resume_xiaojia_li.pdf"
         type="application/pdf"
         width="100%"
         height="600px"
