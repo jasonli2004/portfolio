@@ -13,7 +13,7 @@ import About_cn from "./aboutPage/About_cn";
 import "./App.css";
 import Resume from "./resumePage/Resume";
 import Resume_cn from "./resumePage/Resume_cn";
-import BeyondCode from "./BeyondCodePage/BeyondCode";
+// import BeyondCode from "./BeyondCodePage/BeyondCode";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Projects_cn from "./Project_cn";
 
