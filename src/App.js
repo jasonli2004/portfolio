@@ -9,13 +9,14 @@ import {
 } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./aboutPage/About";
-import About_cn from "./aboutPage/About_cn";
+
 import "./App.css";
 import Resume from "./resumePage/Resume";
-import Resume_cn from "./resumePage/Resume_cn";
+import ProjectsCN from "./Projects_cn";
+import AboutCN from "./About_cn";
+import ResumeCN from "./Resume_cn";
 // import BeyondCode from "./BeyondCodePage/BeyondCode";
 import LanguageSwitcher from "./LanguageSwitcher";
-import Projects_cn from "./Project_cn";
 
 // 提取 AppContent 组件，便于在 <BrowserRouter> 内使用 useLocation
 function AppContent() {
@@ -60,9 +61,9 @@ function AppContent() {
           <Route path="/en/resume" element={<Resume />} />
 
           {/* Chinese */}
-          <Route path="/zh" element={<Projects_cn />} />
-          <Route path="/zh/about" element={<About_cn />} />
-          <Route path="/zh/resume" element={<Resume_cn />} />
+          <Route path="/projects_cn" element={<ProjectsCN />} />
+          <Route path="/about_cn" element={<AboutCN />} />
+          <Route path="/resume_cn" element={<ResumeCN />} />
         </Routes>
       </main>
     </div>
