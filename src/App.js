@@ -12,9 +12,9 @@ import About from "./aboutPage/About";
 
 import "./App.css";
 import Resume from "./resumePage/Resume";
-import ProjectsCN from "./Projects_cn";
-import AboutCN from "./About_cn";
-import ResumeCN from "./Resume_cn";
+import ProjectsCN from "./Project_cn";
+import AboutCN from "./aboutPage/About_cn";
+import ResumeCN from "./resumePage/Resume_cn";
 // import BeyondCode from "./BeyondCodePage/BeyondCode";
 import LanguageSwitcher from "./LanguageSwitcher";
 
