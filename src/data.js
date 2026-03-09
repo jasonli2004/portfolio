@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: "A Study of Morris Worm in Sandbox Environment",
+    description:
+      "A comprehensive analysis of the Morris Worm, one of the earliest computer worms, conducted within a controlled sandbox environment to understand its propagation mechanisms and impact on network security.",
+    features: [
+      "Sandbox environment setup for safe analysis",
+      "Detailed examination of the worm's code and behavior",
+      "Insights into the worm's impact on network security and mitigation strategies",
+    ],
+    tech: ["Unix", "Python", "C", "Docker", "Simh", "React"],
+    links: {
+      demo: "https://comps-pied-alpha.vercel.app/",
+      github: "https://github.com/Lee-Li-404/Winter2026Comps",
+    },
+  },
+  {
     title: "The Living Funeral",
     description:
       "An interactive, web-based extension of a physical art installation that uses AI to provoke deep reflection on themes of life, death, and self-reflection.\n",
